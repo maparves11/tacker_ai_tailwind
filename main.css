@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .caption{
+        @apply bg-black dark:bg-white text-white dark:text-black font-bold text-xs uppercase px-1.5 py-0.5 rounded-sm;
+    }
+    .caption2{
+        @apply bg-[#5677AC26] text-black text-xs md:text-sm uppercase px-1.5 py-0.5 rounded-sm hover:bg-black hover:text-white transition-all cursor-pointer dark:bg-white font-semibold ;
+    }
+    .fasttitel{
+       @apply md:text-lg font-semibold text-[#333333]  pb-1  dark:text-white
+    }
+    
+    .blackdar{
+        @apply dark:text-white
+    }
+    
+
+    
+}
